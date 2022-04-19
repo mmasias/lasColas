@@ -4,7 +4,7 @@ El centro comercial CF de El Alisal trabaja de 9 de la mañana a 9 de la noche v
 
 <kbd>![](https://github.com/mmasias/idsw2/blob/main/images/colas.png)</kbd>
 
-Un estudio previo determinó que la probabilidad de llegada de un cliente nuevo a la cola se estima entre el 0 y el 40% por minuto.
+Un estudio previo determinó que la probabilidad de llegada de un cliente nuevo a la cola se estima en un 40% por minuto.
 
 Cuando una caja está libre (es decir, no está atendiendo a ningún cliente), puede recibir a un nuevo cliente de la cola. Este cliente llevará su compra, la cual el estudio anteriormente citado midió en *packs de items*. El usuario puede llevar un mínimo de 5 y un máximo de 15 pack de items para su atención, y se tiene calculado que las cajas tardan 1 minuto en atender un pack de items.
 
