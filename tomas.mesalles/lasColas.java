@@ -23,8 +23,6 @@ public class lasColas {
 
         while (minutos_jornada < 720){
             
-            //double prob_cliente_nuevo = Math.random() * (40 - 0) + 0;
-
             double prob_llegada = Math.random() * (100 - 0) + 0;
             if (prob_llegada <= 40) {
                 personas_en_cola = personas_en_cola + 1;
@@ -103,8 +101,6 @@ public class lasColas {
 
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
                 + "\nMinuto [" + minutos_jornada + "] de la jornada:");
-                //+ "\nProbabilidad cliente nuevo: [" + (int) prob_cliente_nuevo + "%]");
-            //System.out.println("Probabilidad de llegada: [" + prob_llegada + "]");
             if (prob_llegada <= 40) {
                 System.out.println("<Una persona mas se ha unido a la cola.>");
             }
